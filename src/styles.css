@@ -11,9 +11,28 @@
   }
 }
 
+.select-button{
+  width: 200px;
+}
+
 .multiselect {
   width: 200px;
-  margin-top: 20px;
+  border-top: 0;
+  outline: 0;
+}
+
+.item-selected{
+  padding: 5px;
+  background-color: lightblue;
+
+  &:not(:first-child){
+    border-top: 1px solid gray;
+  }
+}
+
+.item{
+  border-top: 1px solid gray;
+  padding: 5px;
 }
 
 .dropdown-button {
